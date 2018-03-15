@@ -1,0 +1,16 @@
+body{
+  width : 50%;
+  background-color: white;
+  margin:auto;
+  padding: 20%;
+}
+
+.main-content {
+  text-align:center;
+  border:1px solid black
+}
+
+.main-content h1, h3{
+  font-family: Georgia;
+  text-decoration:none;
+}
