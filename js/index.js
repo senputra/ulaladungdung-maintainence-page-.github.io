@@ -29,7 +29,7 @@ var slidingWords = function slidingWords() {
 };
 var environment = function environment() {
   var envTL = new TimelineMax();
-  envTL.to(wrap, 0, { delay: 0.5, scale: 1.5 }, 0).to(textOne, 0, { delay: 0.5, text: 'It' }, 0).to(textTwo, 0, { delay: 0.5, text: '' }, 0).to(wrap, 0, { scale: 1 }, 1);
+  envTL.to(wrap, 0, { delay: 0.5, scale: 1.5 }, 0).to(textOne, 0, { delay: 0.5, text: '####' }, 0).to(textTwo, 0, { delay: 0.5, text: '' }, 0).to(wrap, 0, { scale: 1 }, 1);
   return envTL;
 };
 var type = function type(el, text) {
