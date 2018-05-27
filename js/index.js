@@ -79,7 +79,7 @@ var advertTL = new TimelineMax({
   }
 });
 
-advertTL.add(intro()).add(swap(textOne, 'Hi', 0)).add(swap(textOne, 'there')).add(slidingWords()).add(environment()).add(type(textOne, 'is')).add(frontEnd()).add(swap(textOne, 'really soon!')).add(swap(textOne, 'WAIT FOR IT')).add(bounce()).add(TweenMax.to(textOne, 0, {
+advertTL.add(intro()).add(swap(textOne, 'Hi', 0)).add(swap(textOne, 'there!')).add(slidingWords()).add(environment()).add(type(textOne, 'is')).add(frontEnd()).add(swap(textOne, 'really soon!')).add(swap(textOne, 'WAIT FOR IT')).add(bounce()).add(TweenMax.to(textOne, 0, {
   text: '👋',
   immediateRender: false,
   onStart: function onStart() {
