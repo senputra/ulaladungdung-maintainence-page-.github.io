@@ -20,16 +20,16 @@ var swap = function swap(el, text) {
 };
 var slidingWords = function slidingWords() {
   var swipeTL = new TimelineMax();
-  swipeTL.to(textOne, 0.15, { delay: 0.1, scale: 0.85 }).to(textOne, 0, { text: '#PROJECT', delimiter: ' ' }).to(textOne, 0.1, { scale: 1 }).to(textTwo, 0.15, {
+  swipeTL.to(textOne, 0.15, { delay: 0.1, scale: 0.85 }).to(textOne, 0, { text: 'Dody\'s ', delimiter: ' ' }).to(textOne, 0.1, { scale: 1 }).to(textTwo, 0.15, {
     delay: 0.25,
-    text: 'EMPATHY',
+    text: 'Portfolio',
     delimiter: ' '
   }).to(wrap, 0.1, { delay: 0.25, scale: 0.75 }).to(wrap, 0.1, { scale: 1 });
   return swipeTL;
 };
 var environment = function environment() {
   var envTL = new TimelineMax();
-  envTL.to(wrap, 0, { delay: 0.5, scale: 1.5 }, 0).to(textOne, 0, { delay: 0.5, text: '#PROJECTEMPATHY' }, 0).to(textTwo, 0, { delay: 0.5, text: '' }, 0).to(wrap, 0, { scale: 1 }, 1);
+  envTL.to(wrap, 0, { delay: 0.5, scale: 1.5 }, 0).to(textOne, 0, { delay: 0.5, text: 'It' }, 0).to(textTwo, 0, { delay: 0.5, text: '' }, 0).to(wrap, 0, { scale: 1 }, 1);
   return envTL;
 };
 var type = function type(el, text) {
