@@ -20,9 +20,9 @@ var swap = function swap(el, text) {
 };
 var slidingWords = function slidingWords() {
   var swipeTL = new TimelineMax();
-  swipeTL.to(textOne, 0.15, { delay: 0.1, scale: 0.85 }).to(textOne, 0, { text: 'Dody\'s ', delimiter: ' ' }).to(textOne, 0.1, { scale: 1 }).to(textTwo, 0.15, {
+  swipeTL.to(textOne, 0.15, { delay: 0.1, scale: 0.85 }).to(textOne, 0, { text: '#Dody\'s ', delimiter: ' ' }).to(textOne, 0.1, { scale: 1 }).to(textTwo, 0.15, {
     delay: 0.25,
-    text: 'Portfolio',
+    text: ' portfolio',
     delimiter: ' '
   }).to(wrap, 0.1, { delay: 0.25, scale: 0.75 }).to(wrap, 0.1, { scale: 1 });
   return swipeTL;
@@ -79,7 +79,7 @@ var advertTL = new TimelineMax({
   }
 });
 
-advertTL.add(intro()).add(swap(textOne, 'Get', 0)).add(swap(textOne, 'READY')).add(slidingWords()).add(environment()).add(type(textOne, 'is')).add(frontEnd()).add(swap(textOne, 'really soon!')).add(swap(textOne, '#PROJECTEMPATHY')).add(bounce()).add(TweenMax.to(textOne, 0, {
+advertTL.add(intro()).add(swap(textOne, 'Get', 0)).add(swap(textOne, 'READY')).add(slidingWords()).add(environment()).add(type(textOne, 'is')).add(frontEnd()).add(swap(textOne, 'really soon!')).add(swap(textOne, 'WAIT FOR IT')).add(bounce()).add(TweenMax.to(textOne, 0, {
   text: '👋',
   immediateRender: false,
   onStart: function onStart() {
